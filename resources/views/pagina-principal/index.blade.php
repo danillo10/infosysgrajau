@@ -134,7 +134,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-xl-6 mt-5 mb-5">
 					<h2 class="section-title2 text-left">SOBRE NÓS</h2>
-					<p class="subsection">Seja bem-vindo à Tolitech, uma empresa especializada em tecnologias Microsoft. 
+					<p class="subsection">Seja bem-vindo à Infosys, uma empresa especializada em tecnologias Microsoft. 
 					Buscamos sempre a excelência nos serviços prestados, com sistemas que atendam a sua necessidade. O cumprimento de prazos e a qualidade do código fazem parte do nosso princípio. Nosso objetivo é criar a solução perfeita para o seu negócio.
 
 					Desenvolvimento de sistemas com comprometimento e qualidade. Software sob medida: criação de sistemas conforme sua necessidade. Consultoria técnica: nossa expertise auxiliando o seu projeto.</p>
@@ -220,7 +220,7 @@
 
 		<!-- TECNOLOGIAS -->
 		<section class="d-flex flex-column justify-content-center mt-5 mb-5">
-			<h3 class="h3-body-title">CONHEÇA UM POUCO MAIS SOBRE O DESENVOLVIMENTO COM A TOLITECH</h3>
+			<h3 class="h3-body-title">CONHEÇA UM POUCO MAIS SOBRE O DESENVOLVIMENTO COM A Infosys</h3>
 			<div class="d-flex flex-row	justify-content-start align-items-start">
 				<div class="col-lg-2 col-xl-2">
 					<ul class="etabs">
@@ -233,7 +233,7 @@
 
 				<div class="col-lg-6 col-xl-6 relative des-web" id="des-web">
 					<span class="d-flex flex-column justify-content-center pl-3">
-						<p class="subsection">Especializada em desenvolvimento web, a Tolitech desenvolve sistemas utilizando as seguintes tecnologias:</p>
+						<p class="subsection">Especializada em desenvolvimento web, a Infosys desenvolve sistemas utilizando as seguintes tecnologias:</p>
 						<div class="d-flex flex-row justify-content-start pl-0">
 							<ul class="lista-atividades pl-0">
 								<li class="li-atividades"><i class="fas fa-check p-2"></i> Delphi</li>
@@ -257,7 +257,7 @@
 
 				<div class="col-lg-6 col-xl-6 relative des-mob" id="des-mob">
 					<span class="d-flex flex-column justify-content-cen	ter pl-3">
-						<p class="subsection">Especializada em desenvolvimento web, a Tolitech desenvolve sistemas utilizando as seguintes tecnologias:</p>
+						<p class="subsection">Especializada em desenvolvimento web, a Infosys desenvolve sistemas utilizando as seguintes tecnologias:</p>
 						<div class="d-flex flex-row justify-content-start pl-0">
 							<ul class="lista-atividades pl-0">
 								<li class="li-atividades"><i class="fas fa-check p-2"></i> Ionic</li>
@@ -270,7 +270,7 @@
 
 				<div class="col-lg-6 col-xl-6 relative des-neg" id="des-neg">
 					<span class="d-flex flex-column justify-content-center pl-3">
-						<p class="subsection">Há 10 anos no mercado, a Tolitech se especializou no desenvolvimento de projetos web e mobile, com a proposta de entregar códigos de qualidade, livres de bugs, respeitando o cumprimento de prazos e tudo isso a preços bem competitivos.</p>
+						<p class="subsection">Há 10 anos no mercado, a Infosys se especializou no desenvolvimento de projetos web e mobile, com a proposta de entregar códigos de qualidade, livres de bugs, respeitando o cumprimento de prazos e tudo isso a preços bem competitivos.</p>
 						<p class="subsection">Solicite já um <a href="#">orçamento</a>.</p>
 
 						<ul class="details">
@@ -292,12 +292,12 @@
 
 				<div class="col-lg-6 col-xl-6 relative des-mob" id="des-sol">
 					<span class="d-flex flex-column justify-content-center pl-3">
-						<p class="subsection">Com a Tolitech você não tem surpresas. 
+						<p class="subsection">Com a Infosys você não tem surpresas. 
 						Todo o desenvolvimento web é hospedado gratuitamente em nossos servidores (durante o período de construção), para que você possa acompanhar on-line e diariamente a evolução do seu projeto.</p>
 						<p class="subsection">
 						Nossos profissionais são altamente capacitados e possuem inúmeras certificações Microsoft, tanto em banco de dados SQL Server, quanto no desenvolvimento em ASP.NET MVC.</p>
 						<p class="subsection">
-						Desenvolva com a Tolitech, e tenha certeza de receber um projeto bem estruturado e que atenderá todas as suas expectativas.</p>
+						Desenvolva com a Infosys, e tenha certeza de receber um projeto bem estruturado e que atenderá todas as suas expectativas.</p>
 					</span>
 				</div>
 
