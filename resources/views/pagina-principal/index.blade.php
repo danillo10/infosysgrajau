@@ -80,7 +80,7 @@
 		<!-- CLIENTES -->
 		<section class="clientes mt-5 mb-5 d-flex flex-column justify-content-center align-items-center">
 			<h2 class="section-title">CONHEÇA ALGUNS DE NOSSOS CLIENTES</h2>
-			<p class="subsection">Desenvolvemos sistemas web unindo qualidade, tecnologia de ponta e paixão pelo desenvolvimento de software, ajudando empresas dos mais diversos segmentos do mercado.</p>
+			<p class="subsection">Desenvolvemos sistemas unindo qualidade, tecnologia de ponta e paixão pelo desenvolvimento de software, ajudando empresas dos mais diversos segmentos do mercado.</p>
 			<div class="d-flex flex-row justify-content-center flex-wrap w-100">
 				<div class="col-lg-4 col-xl-4 p-1 logo-cliente">
 					<img class="img-fluid" src="http://via.placeholder.com/400x200">
@@ -130,11 +130,11 @@
 		<hr>
 
 		<!-- SOBRE NÓS -->
-		<section class="sobrenos">
+		<section class="sobrenos" id="sobrenos">
 			<div class="row">
 				<div class="col-lg-6 col-xl-6 mt-5 mb-5">
 					<h2 class="section-title2 text-left">SOBRE NÓS</h2>
-					<p class="subsection">Seja bem-vindo à Infosys, uma empresa especializada em tecnologias Microsoft. 
+					<p class="subsection">Seja bem-vindo à Infosys, uma empresa especializada em tecnologias. 
 					Buscamos sempre a excelência nos serviços prestados, com sistemas que atendam a sua necessidade. O cumprimento de prazos e a qualidade do código fazem parte do nosso princípio. Nosso objetivo é criar a solução perfeita para o seu negócio.
 
 					Desenvolvimento de sistemas com comprometimento e qualidade. Software sob medida: criação de sistemas conforme sua necessidade. Consultoria técnica: nossa expertise auxiliando o seu projeto.</p>
@@ -219,15 +219,15 @@
 	<div class="container">
 
 		<!-- TECNOLOGIAS -->
-		<section class="d-flex flex-column justify-content-center mt-5 mb-5">
+		<section id="servicos" class="d-flex flex-column justify-content-center mt-5 mb-5">
 			<h3 class="h3-body-title">CONHEÇA UM POUCO MAIS SOBRE O DESENVOLVIMENTO COM A Infosys</h3>
 			<div class="d-flex flex-row	justify-content-start align-items-start">
 				<div class="col-lg-2 col-xl-2">
 					<ul class="etabs">
-						<a class="tab-links cursor-pointer" data-pagina="des-web"><li class="tab active"><i class="fab fa-html5 pr-2"></i> Tecnologias Web</li></a>
+						<a class="tab-links cursor-pointer" data-pagina="des-sol"><li class="tab active"><i class="fas fa-cloud pr-2"></i> Solução</li></a>
+						<a class="tab-links cursor-pointer" data-pagina="des-web"><li class="tab"><i class="fab fa-html5 pr-2"></i> Tecnologias Web</li></a>
 						<a class="tab-links cursor-pointer" data-pagina="des-mob"><li class="tab"><i class="fas fa-mobile-alt pr-2"></i> Tecnologias Mobile</li></a>
 						<a class="tab-links cursor-pointer" data-pagina="des-neg"><li class="tab"><i class="fas fa-laptop pr-2"></i> Negócios</li></a>
-						<a class="tab-links cursor-pointer" data-pagina="des-sol"><li class="tab"><i class="fas fa-cloud pr-2"></i> Solução</li></a>
 					</ul>
 				</div>
 
@@ -238,7 +238,7 @@
 							<ul class="lista-atividades pl-0">
 								<li class="li-atividades"><i class="fas fa-check p-2"></i> Delphi</li>
 								<li class="li-atividades"><i class="fas fa-check p-2"></i> MVC</li>
-								<li class="li-atividades"><i class="fas fa-check p-2"></i> C#</li>
+								<li class="li-atividades"><i class="fas fa-check p-2"></i> Firebird</li>
 								<li class="li-atividades"><i class="fas fa-check p-2"></i> Javascript</li>
 								<li class="li-atividades"><i class="fas fa-check p-2"></i> CSS 3</li>
 								<li class="li-atividades"><i class="fas fa-check p-2"></i> Bootstrap</li>
@@ -270,7 +270,7 @@
 
 				<div class="col-lg-6 col-xl-6 relative des-neg" id="des-neg">
 					<span class="d-flex flex-column justify-content-center pl-3">
-						<p class="subsection">Há 10 anos no mercado, a Infosys se especializou no desenvolvimento de projetos web e mobile, com a proposta de entregar códigos de qualidade, livres de bugs, respeitando o cumprimento de prazos e tudo isso a preços bem competitivos.</p>
+						<p class="subsection">Há 15 anos no mercado, a Infosys se especializou no desenvolvimento de projetos Desktop, Web e Mobile, com a proposta de entregar códigos de qualidade, livres de bugs, respeitando o cumprimento de prazos e tudo isso a preços bem competitivos.</p>
 						<p class="subsection">Solicite já um <a href="#">orçamento</a>.</p>
 
 						<ul class="details">
@@ -293,9 +293,9 @@
 				<div class="col-lg-6 col-xl-6 relative des-mob" id="des-sol">
 					<span class="d-flex flex-column justify-content-center pl-3">
 						<p class="subsection">Com a Infosys você não tem surpresas. 
-						Todo o desenvolvimento web é hospedado gratuitamente em nossos servidores (durante o período de construção), para que você possa acompanhar on-line e diariamente a evolução do seu projeto.</p>
+						Todo o desenvolvimento é hospedado em nossos servidores (durante o período de construção), para que você possa acompanhar on-line e diariamente a evolução do seu projeto.</p>
 						<p class="subsection">
-						Nossos profissionais são altamente capacitados e possuem inúmeras certificações Microsoft, tanto em banco de dados SQL Server, quanto no desenvolvimento em ASP.NET MVC.</p>
+						Nossos profissionais são altamente capacitados e possuem qualificações Microsoft, tanto em banco de dados, quanto no desenvolvimento em desktop Delphi.</p>
 						<p class="subsection">
 						Desenvolva com a Infosys, e tenha certeza de receber um projeto bem estruturado e que atenderá todas as suas expectativas.</p>
 					</span>
@@ -311,18 +311,23 @@
 		<hr>
 
 		<!-- ÚLTIMAS NOTÍCIAS -->
-		<section class="d-flex flex-column justify-content-center align-items-center mt-5 mb-5">
+		<section id="noticias" class="d-flex flex-column justify-content-center align-items-center mt-5 mb-5">
 			<h2 class="section-title">Últimas Notícias</h2>
 			<div class="col-lg-12 col-xl-12 d-flex flex-row mt-4">
+				@for($i=0;$i < 3; $i++)
 				<div class="col-lg-4 col-xl-4 mr-2">
 					<div class="card card-2">
 						<div class="card-img">
-							<img class="img-overlay" src="https://www.revelabit.com.br/blog/wp-content/uploads/2014/12/Intelig%C3%AAncia-e-Monitoramento-de-Mercado.jpg" alt="imagem1">
+							<a class="null" href="{{$noticias['link'][$i]}}" target="_blank">
+								<img class="img-overlay" src="{{$noticias['imagem'][$i]}}" alt="imagem1">
+							</a>
 						</div>
-						<div class="card-body d-flex flex-column text-center">
-							<p class="card-message text-justify">
-								É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.
-							</p>
+						<div class="card-body d-flex flex-column justify-content-end">
+							<a class="null" href="{{$noticias['link'][$i]}}" target="_blank">
+								<p class="card-message text-justify">
+									{{$noticias['noticia'][$i]}}
+								</p>
+							</a>
 							<div class="card-social d-flex flex-row justify-content-end">
 								<i class="fab fa-facebook-f"></i>
 								<i class="fab fa-twitter"></i>
@@ -332,45 +337,60 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-xl-4">
-					<div class="card card-2 mr-2">
-						<div class="card-img">
-							<img src="https://webbizz.com.br/wp-content/uploads/2016/01/Como-elaborar-um-bom-Planejamento-Estrategico-de-Marketing-Digital.jpg" alt="imagem1">
-						</div>
-						<div class="card-body d-flex flex-column text-center">
-							<p class="card-message text-justify">
-								É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.
-							</p>
-							<div class="card-social d-flex flex-row justify-content-end">
-								<i class="fab fa-facebook-f"></i>
-								<i class="fab fa-twitter"></i>
-								<i class="fab fa-instagram"></i>
-								<i class="fab fa-google-plus-g"></i>
-							</div>
-						</div>
-					</div>
+				@endfor
+			</div>
+		</section>
+		<!-- FIM ÚLTIMAS NOTÍCIAS -->
+
+		<!-- CONTATO -->
+		<section id="contato">
+			<div class="d-flex flex-row back-blue.">
+				<div class="col-lg-6 col-xl-6">
+					<form>
+					  <h3 class="h3-body-title">ENTRE EM CONTATO CONOSCO</h3>
+					  <p class="subsection">No formulário abaixo, informe seus dados de contato e conte-nos um poquinho sobre seu projeto. Nossa equipe analisará os dados e entrará em contato.</p>
+					  <div class="form-group">
+					     <label for="inputEmail4">Nome</label>
+					     <input type="text" class="form-control" id="inputEmail4" placeholder="">
+					  </div>
+					  <div class="form-group">
+					      <label for="inputPassword4">Email</label>
+					      <input type="email" class="form-control" id="inputPassword4" placeholder="">
+					  </div>
+					  <div class="form-group">
+					      <label for="inputPassword4">Telefone</label>
+					      <input type="email" class="form-control" id="inputPassword4" placeholder="">
+					  </div>
+					  <div class="form-group">
+					    <label for="inputAddress">Mensagem</label>
+					    <textarea class="form-control" style="height: 150px;"></textarea>
+					  </div>
+					  <button type="submit" class="btn btn-primary">Enviar</button>
+					</form>
 				</div>
-				<div class="col-lg-4 col-xl-4">
-					<div class="card card-2">
-						<div class="card-img">
-							<img class="img-overlay" src="https://media1.ssotica.com.br/wp-content/uploads/2017/02/analise-de-lucro-ou-prejuizo-na-otica.png" alt="imagem1">
-						</div>
-						<div class="card-body d-flex flex-column text-center">
-							<p class="card-message text-justify">
-								É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.
-							</p>
-							<div class="card-social d-flex flex-row justify-content-end">
-								<i class="fab fa-facebook-f"></i>
-								<i class="fab fa-twitter"></i>
-								<i class="fab fa-instagram"></i>
-								<i class="fab fa-google-plus-g"></i>
-							</div>
-						</div>
+				<div class="col-lg-1 col-xl-1"></div>
+				<div class="col-lg-5 col-xl-5 p-0">
+					<h3 class="h3-body-title">fale conosco</h3>
+					<address class="d-flex flex-column">
+						<ul class="noticias mt-3">
+		                    <li>
+		                        <p class="greylight d-flex flex-row justify-content-start align-items-center" style="font-size: 13px;"><i class="material-icons pr-2">phone</i>(99) 98842-6863</p>
+		                    </li>
+		                    <li>
+		                        <p class="greylight d-flex flex-row justify-content-start align-items-center" style="font-size: 13px;"><i class="material-icons pr-2">home</i>Endereço: Avenida Brasil, 252, Canoeiro, Grajaú - MA</p>
+		                    </li>
+		                    <li>
+		                        <p class="greylight d-flex flex-row justify-content-start align-items-center" style="font-size: 13px;"><i class="material-icons pr-2">email</i>contato@infosyssistemas.com.br</p>
+		                    </li>
+		                </ul>
+					</address>
+					<div class="google-maps w-100">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1668.859544738351!2d-46.15758196834544!3d-5.821841538925433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7673ba6ec42f5f0!2sInfosys+Inform%C3%A1tica+e+Sistemas+-+Graja%C3%BA+-+MA!5e0!3m2!1spt-BR!2sbr!4v1519043553840" width="100%" height="330" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- FIM ÚLTIMAS NOTÍCIAS -->
+		<!-- FIM CONTATO -->
 
 	</div>
 

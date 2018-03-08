@@ -490,21 +490,30 @@ h4.h4-body-title{
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  min-height: 300px;
   margin: 1rem;
   position: relative;
   min-width: 300px;
+  min-height: 385px;
 }
 
 .card-2 {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
+.card-body{
+    min-height: 100px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-img{
     position: relative;
     overflow: hidden;
     width: 330px;
-    height: 200px;
+    min-height: 250px;
     border-top: 2px outset #3498db;
 }
 
@@ -530,3 +539,19 @@ p.card-message{
     top:6px;
     left: 2px;
 }
+
+h3.h3-body-title2{
+    font-weight: lighter;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #4b4b4b;
+}
+
+.greylight{
+    font-family: "Open Sans",sans-serif;
+    color: #665;
+}
+
+
+
+

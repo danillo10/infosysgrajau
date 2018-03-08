@@ -7,53 +7,49 @@
                     <img src="http://via.placeholder.com/200x80" alt="LOGOMARCA">
                 </span>
 
-                <p class="mt-2">Somos uma empresa especializada em desenvolvimento de sistemas web.</p>
+                <p class="mt-2">Somos uma empresa especializada em desenvolvimento de sistemas Desktop, Web e Mobile.</p>
 
-                <p>Desenvolvemos sites e sistemas web, unindo qualidade, tecnologia de ponta e paixão pelo desenvolvimento de software.</p>
+                <p>Desenvolvemos Sistemas, sites e aplicativos móveis, unindo qualidade, tecnologia de ponta e paixão pelo desenvolvimento de software.</p>
 
                 <p>Nosso objetivo é criar a solução perfeita para o seu negócio.</p>
             </div>
             <div class="col-lg-4 col-xl-4">
                 <span class="footer-title">NOTÍCIAS</span>
                 <ul class="noticias mt-3">
+                    @for($i=0;$i < 4;$i++)
                     <li class="pt-1 pb-1">
-                        <img src="http://via.placeholder.com/80x80" alt="LOGOMARCA">
-                        <p class="pl-2" style="font-size: 13px;">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
+                        <a href="{{$noticias['link'][$i]}}" target="_blank" class="null">
+                            <img src="{{$noticias['imagem'][$i]}}" class="rounded" alt="LOGOMARCA" style="max-width: 80px;">
+                        </a>
+                        <a href="{{$noticias['link'][$i]}}" target="_blank" class="null">
+                            <p class="pl-2" style="font-size: 13px;">{{$noticias['noticia'][$i]}}.</p>
+                        </a>
                     </li>
-                    <li class="pt-1 pb-1">
-                        <img src="http://via.placeholder.com/80x80" alt="LOGOMARCA">
-                        <p class="pl-2" style="font-size: 13px;">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
-                    </li>
-                    <li class="pt-1 pb-1">
-                        <img src="http://via.placeholder.com/80x80" alt="LOGOMARCA">
-                        <p class="pl-2" style="font-size: 13px;">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
-                    </li>
-                    <li class="pt-1 pb-1">
-                        <img src="http://via.placeholder.com/80x80" alt="LOGOMARCA">
-                        <p class="pl-2" style="font-size: 13px;">Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
-                    </li>
+                    @endfor
                 </ul>
             </div>
             <div class="col-lg-3 col-xl-3">
                 <span class="footer-title">CONTATO</span>
-                <ul class="noticias mt-3">
-                    <li class="d-flex flex-row justify-content-start align-items-center relative">
-                        <i class="fas fa-map-marker-alt icn-footer"></i>
-                        <p class="pl-4" style="font-size: 13px;">Endereço: Rua Castelo Branco, 774, Açailândia - MA</p>
-                    </li>
-                    <li class="d-flex flex-row justify-content-start align-items-center relative">
-                        <i class="fas fa-phone icn-footer"></i>
-                        <p class="pl-4" style="font-size: 13px;">(99) 3538-2947</p>
-                    </li>
-                    <li class="d-flex flex-row justify-content-start align-items-start relative">
-                        <i class="far fa-envelope icn-footer"></i>
-                        <p class="pl-4" style="font-size: 13px;">contato@infosyssistemas.com.br</p>
-                    </li>
-                    <li class="d-flex flex-row justify-content-start align-items-start relative">
-                        <i class="fas fa-globe icn-footer"></i>
-                        <p class="pl-4" style="font-size: 13px;">www.infosyssistemas.com.br</p>
-                    </li>
-                </ul>
+                <address>
+                    <ul class="noticias mt-3">
+                        <li class="d-flex flex-row justify-content-start align-items-center relative">
+                            <i class="fas fa-map-marker-alt icn-footer"></i>
+                            <p class="pl-4" style="font-size: 13px;">Endereço: Avenida Brasil, 252, Canoeiro, Grajaú - MA</p>
+                        </li>
+                        <li class="d-flex flex-row justify-content-start align-items-center relative">
+                            <i class="fas fa-phone icn-footer"></i>
+                            <p class="pl-4" style="font-size: 13px;">(99) 98842-6863</p>
+                        </li>
+                        <li class="d-flex flex-row justify-content-start align-items-start relative">
+                            <i class="far fa-envelope icn-footer"></i>
+                            <p class="pl-4" style="font-size: 13px;">contato@infosyssistemas.com.br</p>
+                        </li>
+                        <li class="d-flex flex-row justify-content-start align-items-start relative">
+                            <i class="fas fa-globe icn-footer"></i>
+                            <p class="pl-4" style="font-size: 13px;">www.infosyssistemas.com.br</p>
+                        </li>
+                    </ul>
+                </address>
             </div>
             <div class="col-lg-2 col-xl-2">
                 <span class="footer-title">ÚLTIMOS PROJETOS</span>
